@@ -1,0 +1,126 @@
+body{
+    
+    background-image: url("halter.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes changeColor{
+    from {background-color:rgba(0, 0, 0, 0) ;width: 50px;}
+    to { background-color: #fb5502c4; width: 350px;}
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px; 
+    background-color: #fb5502c4;
+    display: inline-flexbox;
+    border-radius: 10px;
+    font-size: 0.7rem;
+   animation-name: changeColor;
+   animation-duration: 1s;
+
+  
+}
+
+
+.titulo1 {
+    font-size: 1.7rem;
+    border-radius: 15px;
+    color: #fb5502c4;
+    background-color: black;
+    text-align: center;
+}
+#titulo2{
+
+    font-size: 1.2rem;
+    
+}
+
+
+h4{font-size: 1rem; }
+
+h3{
+font-size: 1.3rem;
+text-align: center;
+ }
+
+.ip {   
+  
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 85px;
+    padding: auto;
+    border-radius: 4px;
+    box-sizing:inherit;
+    margin-bottom:10px ;
+    display: flex;
+    justify-items: center;
+
+   
+}
+
+
+#butao{width: 50px;
+  
+}
+.linha{
+
+background-color: black;
+
+
+    }
+#saiba{
+    color: black;
+    border-radius: 30px;
+    border-style: groove;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    background-color:#fb5502c0;
+    padding: 10px;
+    text-align: center;
+    max-height: 200px;
+    max-width: 200px;
+    }
+
+        a {
+            color: rgb(77, 9, 9);
+                text-decoration: none;
+                                            }
+
+
+@media screen and (max-width: 760px) {
+
+    body{
+
+        background-image: url("halter.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        
+    }
+
+    #saiba{
+        color: black;
+        border-radius: 30px;
+        border-style: groove;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-color: black;
+        background-color:#fb55028f;
+        padding: 10px;
+        text-align: center;
+}
+
+               
+  }
+
+
+

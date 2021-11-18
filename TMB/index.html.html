@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel=" stylesheet" href="tmb.css" />
+  <link rel="icon" href="alter.png" type="image/gif" sizes="16x16">
+  <title>
+    CALCULADORA TMB
+  </title>
+
+</head>
+
+<body>
+  <div id="container">
+
+
+    <h1 class="titulo1"> CALCULADORA TMB </h1>
+
+
+    <h1 id="titulo2" class="titulo1"> O QUE É TMB? </h1> <br>
+
+    <h4> <br>
+      A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso,
+      como os batimentos cardíacos, a pressão arterial,
+      a respiração e a manutenção da temperatura corporal.</h4>
+
+    <!-- <input class=" ip " id="nome" type="text" name="nome" placeholder="Nome" onkeyup="maiuscula(this)"> -->
+    <input class=" ip " id="idade" type="number" name="idade" placeholder="Idade">
+    <input class=" ip " id="peso" type="number" name="peso" placeholder="Peso">
+    <input class=" ip " id="altura" type="number" name="altura" placeholder="Altura(cm)">
+
+
+
+    <select class="ip " name="gender" id="genero">
+      <option value=""> --Genero-- </option>
+      <option id="gender" value="masculino">Masculino</option>
+      <option value="feminino"> Feminino </option>
+    </select>
+
+
+
+    <div><button class="ip" id="butao" onclick="calculandoTmb()"> Calcular</button></div>
+
+    <div>
+      <h1 id="resultado"> </h1>
+
+    </div>
+
+  </div>
+
+
+  <div id="saiba">
+
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
